@@ -1,0 +1,35 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "CUNG CẤP DVC TRỰC TUYẾN ĐỐI VỚI TÀU THUYỀN NƯỚC NGOÀI"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Một phần",
+      "Toàn trình"
+
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          11,
+          0
+        ],
+        "borderColor": ["#0074D9", "#FF4136"],
+        "backgroundColor": ["#0074D9", "#FF4136"]
+      }
+    ]
+    
+  }
+}

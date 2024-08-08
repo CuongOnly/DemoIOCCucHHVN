@@ -1,0 +1,39 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "THỐNG KÊ THEO HẠNG HOA TIÊU ĐẾN 10/2023"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "NGOẠI HẠNG",
+      "HẠNG 1",
+      "HẠNG 2",
+      "HẠNG 3"
+
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          240,
+          81,
+          87,
+          56
+        ],
+        "borderColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B"],
+        "backgroundColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B"]
+      }
+    ]
+    
+  }
+}

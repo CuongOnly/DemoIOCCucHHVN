@@ -1,0 +1,77 @@
+{
+    "type": "bar",
+    "options": {
+      "responsive": true,
+      "maintainAspectRatio": false,
+      "plugins": {
+        "legend": {
+          "position": "top"
+        },
+        "title": {
+          "display": true,
+          "text": "THỐNG KÊ THEO SỐ LƯỢNG SỸ QUAN ĐẾN 10/2023"
+
+        }
+      }
+    },
+    "data": {
+      "labels": [
+        "Thuyền trưởng",
+        "Đại Phó",
+"Sỹ Quan Boong",
+"Thủy thủ trực ca",
+"Máy Trưởng",
+"Máy hai",
+"Sỹ quan máy",
+"thợ máy trực ca",
+"Sỹ quan kỹ thuật điện",
+"Thợ kỹ thuật điện"
+
+
+
+      ],
+      "datasets": [
+        {
+          "label": "2023",
+          "data": [
+            4314,
+2558,
+5482,
+21196,
+4380,
+2062,
+4299,
+17207,
+343,
+995
+
+          ],
+          "borderColor": [
+            "#0074D9",  
+            "#FF4136",   
+            "#2ECC40",   
+            "#FF851B",   
+            "#B10DC9",   
+            "#001f3f",   
+            "#FFDC00",   
+            "#AAAAAA",   
+            "#19A974",  
+            "#F012BE"    
+          ],
+          "backgroundColor": [
+            "#0074D9",  
+            "#FF4136",   
+            "#2ECC40",   
+            "#FF851B",   
+            "#B10DC9",   
+            "#001f3f",   
+            "#FFDC00",   
+            "#AAAAAA",   
+            "#19A974",  
+            "#F012BE"    
+          ]
+        }
+      ]
+      
+    }
+  }

@@ -1,0 +1,36 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "THẨM QUYỀN ĐƯỢC GIAO THỰC HIỆN TTHC"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "TTHC do cơ quan Cục HHVN thực hiện",
+      "TTHC do các đơn vị trực thuộc thực hiện",
+      "TTHC do cơ quan, đơn vị khác thực hiện"
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          55,
+          27,
+          12
+        ],
+        "borderColor": ["#0074D9", "#FF4136","#2ECC40"],
+        "backgroundColor": ["#0074D9", "#FF4136","#2ECC40"]
+      }
+    ]
+    
+  }
+}

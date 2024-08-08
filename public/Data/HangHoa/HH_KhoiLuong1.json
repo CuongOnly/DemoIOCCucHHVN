@@ -1,0 +1,37 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": ["KHỐI LƯỢNG HÀNG HÓA THÔNG QUA CẢNG BẰNG ĐỘI TÀU BIỂN VIỆT NAM","TÍNH ĐẾN THÁNG 10/2023"]
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Hàng xuất khẩu tấn",
+      "Hàng nhập khẩu tấn",
+      "Hàng nội địa tấn"
+
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          10714772,
+          9445835,
+          74561519
+        ],
+        "borderColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B"],
+        "backgroundColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B"]
+      }
+    ]
+    
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "TỔNG SỐ THUYỀN VIÊN TÍNH ĐẾN 10/2023"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Thuyền trưởng",
+      "Đại phó",
+      "Sỹ quan",
+      "Thủy thủ trực",
+	  "Máy trưởng",
+	  "Máy hai",
+	  "Sỹ quan máy",
+	  "Thợ máy trực",
+	  "Sỹ quan kỹ thuật điện",
+	  "Thợ kỹ thuật điện"
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          4314,
+          2558,
+          5482,
+          21916,
+		  4380,
+		  2062,
+		  4299,
+		  17207,
+		  343,
+		  995
+        ],
+        "borderColor": [
+  "#FF5733",
+  "#33FF57",
+  "#5733FF",
+  "#FF3366",
+  "#66FF33",
+  "#3366FF",
+  "#FF33CC",
+  "#CCFF33",
+  "#33CCFF",
+  "#FF9933"
+],
+        "backgroundColor": [
+  "#FF5733",
+  "#33FF57",
+  "#5733FF",
+  "#FF3366",
+  "#66FF33",
+  "#3366FF",
+  "#FF33CC",
+  "#CCFF33",
+  "#33CCFF",
+  "#FF9933"
+]
+      }
+    ]
+    
+  }
+}

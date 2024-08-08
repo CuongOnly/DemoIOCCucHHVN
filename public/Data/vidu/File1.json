@@ -1,0 +1,86 @@
+{
+    "type": "bar",
+    "options": {
+      "responsive": true,
+      "maintainAspectRatio": false,
+      "plugins": {
+        "legend": {
+          "position": "top"
+        },
+        "title": {
+          "display": true,
+          "text": "THỐNG KÊ SỐ LIỆU THUYỀN VIÊN 123123"
+        }
+      }
+    },
+    "data": {
+      "labels": [
+        "Sỹ quan quản lý",
+        "Sỹ quan vận hành",
+        "Thủy thủ thợ máy"
+      ],
+      "datasets": [
+        {
+          "label": "2018",
+          "data": [
+            11241,
+            9143,
+            19001
+          ],
+          "backgroundColor": "rgba(255, 99, 100)",
+          "borderColor": "red"
+        },
+		{
+          "label": "2019",
+          "data": [
+            11996,
+            9640,
+            21239
+          ],
+          "backgroundColor": "rgba(53, 100, 235)",
+          "borderColor": "red"
+        },
+				{
+          "label": "2020",
+          "data": [
+            12893,
+            9545,
+            24874
+          ],
+          "backgroundColor": "rgba(53, 125, 235)",
+          "borderColor": "red"
+        },
+				{
+          "label": "2021",
+          "data": [
+            12208,
+            9125,
+            28919
+          ],
+          "backgroundColor": "rgba(68, 162, 235)",
+          "borderColor": "red"
+        },
+				{
+          "label": "2022",
+          "data": [
+            12560,
+            9127,
+            35852
+          ],
+          "backgroundColor": "rgba(53, 62, 235)",
+          "borderColor": "red"
+        },
+				{
+          "label": "2023",
+          "data": [
+            13314,
+            10124,
+            39398
+          ],
+          "backgroundColor": "rgba(53, 150, 200)",
+          "borderColor": "red"
+        }
+      ]
+      
+    }
+  }

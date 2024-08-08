@@ -1,0 +1,35 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "HỒ SƠ THỰC HIỆN QUA CỔNG DỊCH VỤ QUỐC GIA"
+
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Hồ sơ trực tiếp",
+      "Hồ sơ tiếp nhận"
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          751,
+          20653
+        ],
+        "borderColor": ["#0074D9", "#FF4136"],
+        "backgroundColor": ["#0074D9", "#FF4136"]
+      }
+    ]
+    
+  }
+}

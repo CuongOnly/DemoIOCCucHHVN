@@ -1,0 +1,105 @@
+
+.LineStyle1{
+    position: absolute;
+    width: 32rem;
+    height: 15rem;
+    top: 14.5rem;
+    left: 21rem;
+    transform: rotate(180deg) skew(0deg);
+}
+
+
+
+.LineStyle1 p{
+    transform: rotate(180deg);
+    position: absolute;
+    top: 6rem;
+    left: 15rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {color: #FDF5E6;}
+    50% {color: #FFB6C1;}
+    100% {color: #98FB98;}
+  }
+
+.LineStyle2{
+    position: absolute;
+    width: 32rem;
+    height: 15rem;
+    top: -5.5rem;
+    left: 20rem;
+    transform: rotate(360deg) skew(0deg);
+}
+
+
+.LineStyle2 p{
+    transform: rotate(360deg);
+    position: absolute;
+    top: 4rem;
+    left: 14rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+.LineStyle3{
+    transform: rotate(135deg);
+    position: absolute;
+    top: 9rem;
+    left: 41rem;
+}
+
+.LineStyle3 .vector1{
+    transform: rotate(44deg);
+    position: absolute;
+    top: -9px;
+    left: -9px;
+}
+
+.LineStyle3 .vector2{
+    transform: rotate(44deg);
+    position: absolute;
+    top: 38px;
+    left: 38px;
+}
+
+.LineStyle4{
+    transform: rotate(135deg);
+    position: absolute;
+    top: 9rem;
+    left: 20rem;
+}
+
+.LineStyle4 .vector1{
+    transform: rotate(44deg);
+    position: absolute;
+    top: -9px;
+    left: -9px;
+}
+
+.LineStyle4 .vector2{
+    transform: rotate(44deg);
+    position: absolute;
+    top: 38px;
+    left: 38px;
+}
+
+
+/* 
+.LineStyle3 svg{
+    transform: scaleY(0.2);
+
+} */

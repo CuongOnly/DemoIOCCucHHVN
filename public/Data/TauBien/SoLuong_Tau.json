@@ -1,0 +1,40 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+  "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "THỐNG KÊ THEO TỔNG DWT ĐẾN 12/2022"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Tàu chở Khí hóa lỏng",
+      "Tàu chở Dầu, hóa chất",
+      "Tàu chở Khách",
+      "Tàu chở hàng rời, tổng hợp",
+      "Tàu chở Container"
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          5388495,
+          513557,
+          4453304,
+          122261,
+          5962
+        ],
+        "borderColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B","#B10DC9"],
+        "backgroundColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B","#B10DC9"]
+      }
+    ]
+    
+  }
+}

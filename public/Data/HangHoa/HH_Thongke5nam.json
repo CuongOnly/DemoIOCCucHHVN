@@ -1,0 +1,64 @@
+{
+    "type": "bar",
+    "options": {
+      "responsive": true,
+      "maintainAspectRatio": false,
+      "plugins": {
+        "legend": {
+          "position": "top"
+        },
+        "title": {
+          "display": true,
+          "text": "KHỐI LƯỢNG HÀNG HÓA, LƯỢT TÀU, HÀNH KHÁCH"
+        }
+      }
+    },
+    "data": {
+      "labels": [
+        "Năm 2018",
+        "Năm 2019",
+        "Năm 2020",
+		"Năm 2021",
+		"Năm 2022"
+      ],
+      "datasets": [
+        {
+          "label": "Tổng hàng hóa thông qua (1000 tấn)",
+          "data": [
+            596561,
+            664611,
+            692291,
+			706138,
+			724078
+          ],
+          "backgroundColor": "rgba(255, 99, 100)",
+          "borderColor": "red"
+        },
+		{
+          "label": "Tổng lượt tàu thuyền vận tải (Lượt)",
+          "data": [
+            396789,
+            447180,
+            488243,
+			477840,
+			445889
+          ],
+          "backgroundColor": "rgba(53, 100, 235)",
+          "borderColor": "red"
+        },
+				{
+          "label": "Tổng hàng hóa thông qua (1000 Lượt hành khách)",
+          "data": [
+            5898,
+            7509,
+            6045,
+			3185,
+			6001
+          ],
+          "backgroundColor": "rgba(53, 125, 235)",
+          "borderColor": "red"
+        }
+      ]
+      
+    }
+  }

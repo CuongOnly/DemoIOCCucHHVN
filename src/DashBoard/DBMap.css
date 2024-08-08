@@ -1,0 +1,96 @@
+
+.pageHomeDashMap{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.map{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; 
+  width: 100%;
+  overflow: auto; 
+
+}
+
+.containerDb .address {
+  width: calc(100% - 50px);
+  background-color: #fff;
+  padding: 5px 0px;
+  margin: 10px auto 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-size: 19px;
+  
+}
+
+ .address .text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+ .address .text a {
+  margin-top: 5px;
+  color: #000000A6;
+  margin: 0 10px;
+}
+
+ .address .text .linkText{
+  color: #000000A6;
+  text-decoration: none;
+}
+
+.map {
+  position: relative;
+}
+
+.map img {
+  padding-top: 27px;
+  padding-left: 51px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+.pageHomeDashMap{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.map{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1706px; 
+  width: 100%;
+  overflow: auto; 
+}
+
+.containerDb .address {
+  width: calc(100% - 50px);
+  background-color: #fff;
+  padding: 5px 0px;
+  margin: 10px auto 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-size: 19px;
+  
+}
+
+.map {
+  position: relative;
+}
+
+.map img {
+  padding-top: 27px;
+  padding-left: 51px;
+}
+
+}

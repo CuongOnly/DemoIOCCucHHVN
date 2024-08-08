@@ -1,0 +1,93 @@
+{
+  "type": "bar",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "THỐNG KÊ ĐỘI TÀU BIỂN TREO CỜ VIỆT NAM"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "10.2023"
+    ],
+    "datasets": [
+      {
+        "label": "Tàu chở hàng tổng hợp, hàng rời",
+        "data": [
+          884,
+          768,
+          764,
+          721,
+          709,
+          685
+        ],
+        "borderColor": "blue",
+        "backgroundColor": "rgba(255, 99, 100)"
+      },
+      {
+        "label": "Tàu chở Container",
+        "data": [
+          41,
+          39,
+          38,
+          39,
+          43,
+          44
+        ],
+        "borderColor": "blue",
+        "backgroundColor": "rgba(53, 100, 235)"
+      },
+      {
+        "label": "Tàu chở dầu, hóa chất",
+        "data": [
+          152,
+          156,
+          164,
+          186,
+          178,
+          178
+        ],
+        "borderColor": "blue",
+        "backgroundColor": "rgba(53, 125, 235)"
+      },
+      {
+        "label": "Tàu chở khí hóa lỏng",
+        "data": [
+          18,
+          19,
+          19,
+          20,
+          21,
+          20
+        ],
+        "borderColor": "blue",
+        "backgroundColor": "rgba(68, 162, 140)"
+      },
+      {
+        "label": "Tàu chở khách",
+        "data": [
+          52,
+          65,
+          66,
+          64,
+          58,
+          58
+        ],
+        "borderColor": "blue",
+        "backgroundColor": "rgba(20, 102, 235)"
+      }
+    ]
+  }
+}

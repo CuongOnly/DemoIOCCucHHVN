@@ -1,0 +1,142 @@
+{
+    "type": "bar",
+    "options": {
+      "responsive": true,
+       "scales": {
+            "x": {
+                "stacked": true
+            },
+            "y": {
+                "stacked": true
+            }
+        },
+      "maintainAspectRatio": false,
+
+      "plugins": {
+        "legend": {
+          "position": "top"
+        },
+        "title": {
+          "display": true,
+          "text": "TỔNG HÀNG HÓA THÔNG QUA CỦA TỪNG KHU VỰC TÍNH ĐẾN THÁNG 10/2023"
+
+        }
+      }
+    },
+    "data": {
+      "labels": [
+        "Q.Ninh",
+        "H.Phòng",
+        "T.Bình",
+		"T.Hóa",
+		"N.An",
+		"H.Tĩnh",
+		"Q.Bình",
+		"Q.Trị",
+		"T.T.Huế",
+		"Đ.Nẵng",
+		"Q.Nam",
+		"Q.Ngãi",
+		"Q.Nhơn",
+		"N.Trang",
+		"B.Thuận",
+		"V.Tàu",
+		"TP.HCM",
+		"Đ.Nai",
+		"C.Thơ",
+		"A.Giang",
+		"K.Giang",
+		"Đ.Tháp"
+      ],
+      "datasets": [
+        {
+          "label": "Container (Tấn)",
+          "data": [
+            11898,
+            57394429,
+            0,
+			192028,
+			1090463,
+			17940,
+			0,
+			0,
+			80248,
+			6079324,
+			760868,
+			0,
+            1142162,
+            0,
+			0,
+			48004471,
+			82494094,
+			8442091,
+			915972,
+			307922,
+			0,
+			458905
+          ],
+		  "borderColor": "white",
+          "backgroundColor": "yellow"        
+        },
+		{
+          "label": "Hàng lỏng (Tấn)",
+          "data": [
+            4369444,
+            5442611,
+            1239060,
+			12226339,
+			756687,
+			447751,
+			54466,
+			8851,
+			93345,
+			884353,
+			142574,
+			11816725,
+            631220,
+            1731554,
+			1938135,
+			8752181,
+			10774039,
+			4404522,
+			1675977,
+			15733,
+			26798,
+			269308
+          ],
+		  "borderColor": "white",
+          "backgroundColor": "red"
+        },
+				{
+          "label": "Hàng khô (Tấn)",
+          "data": [
+            110704961,
+            18078244,
+            369695,
+			25375347,
+			9198957,
+			24175740,
+			2447390,
+			1210326,
+			4578968,
+			2665083,
+			1737052,
+			20340739,
+            6968622,
+            8891913,
+			10863848,
+			34818884,
+			45873621,
+			9127997,
+			12392742,
+			1103395,
+			363193,
+			2676666
+          ],
+		  "borderColor": "blue",
+          "backgroundColor": "rgba(53, 125, 235)"
+        }
+      ]
+      
+    }
+  }

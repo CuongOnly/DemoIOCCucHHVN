@@ -1,0 +1,37 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "CUNG CẤP DVC TRÊN CỔNG DỊCH VỤ CÔNG QUỐC GIA"
+
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Trực tuyến Toàn trình",
+      "Trực tuyến Một phần",
+      "Trực tiếp"
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          46,
+          2,
+          7
+        ],
+        "borderColor": [ "#0074D9", "#FF4136", "#2ECC40" ],
+        "backgroundColor": [ "#0074D9", "#FF4136", "#2ECC40" ]
+      }
+    ]
+    
+  }
+}

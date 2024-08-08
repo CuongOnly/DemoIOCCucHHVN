@@ -1,0 +1,71 @@
+{
+    "type": "bar",
+    "options": {
+      "responsive": true,
+      "maintainAspectRatio": false,
+      "plugins": {
+        "legend": {
+          "position": "top"
+        },
+        "title": {
+          "display": true,
+          "text": ["TỔNG KHỐI LƯỢNG HÀNG HÓA THÔNG QUA CẢNG BIỂN","10 THÁNG ĐẦU NĂM 2023"]
+        }
+      }
+    },
+    "data": {
+      "labels": [
+        "Container",
+        "Hàng lỏng",
+        "Hàng khô tổng hợp",
+		"Hàng quá cảnh"
+      ],
+      "datasets": [
+        {
+          "label": "Xuất khẩu",
+          "data": [
+            70407360,
+            3570116,
+            75325617,
+			0
+          ],
+          "backgroundColor": "rgba(255, 99, 100)",
+          "borderColor": "red"
+        },
+		{
+          "label": "Nhập khẩu",
+          "data": [
+            70977721,
+            24200570,
+            89760553,
+			0
+          ],
+          "backgroundColor": "rgba(53, 100, 235)",
+          "borderColor": "red"
+        },
+				{
+          "label": "Nội địa",
+          "data": [
+            66007734,
+            39930137,
+            188416897,
+			0
+          ],
+          "backgroundColor": "rgba(53, 125, 10)",
+          "borderColor": "red"
+        },
+						{
+          "label": "Tổng",
+          "data": [
+            207392815,
+            67700823,
+            353503067,
+			2308953
+          ],
+          "backgroundColor": "rgba(63, 105, 185)",
+          "borderColor": "red"
+        }
+      ]
+      
+    }
+  }

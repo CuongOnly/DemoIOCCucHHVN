@@ -1,0 +1,68 @@
+{
+    "type": "bar",
+    "options": {
+		"indexAxis": "y",
+      "responsive": true,
+      "maintainAspectRatio": false,
+      "plugins": {
+        "legend": {
+          "position": "right"
+        },
+        "title": {
+          "display": true,
+          "text": ["SỐ LƯỢNG TÌM KIẾM CỨU NẠN QUA CÁC NĂM","SỐ NGƯỜI ĐƯỢC HỖ TRỢ"]
+        }
+      }
+    },
+    "data": {
+      "labels": [
+        "2018",
+        "2019",
+        "2020",
+		"2021",
+		"2022",
+		"2023"
+      ],
+      "datasets": [
+        {
+          "label": "Số người Việt Nam",
+          "data": [
+            1025,
+            1054,
+            734,
+			536,
+			751,
+			685
+          ],
+          "backgroundColor": "rgba(255, 99, 100)",
+          "borderColor": "red"
+        },
+		{
+          "label": "Số người nước ngoài",
+          "data": [
+            26,
+            44,
+            22,
+			32,
+			494,19
+          ],
+          "backgroundColor": "rgba(53, 100, 235)",
+          "borderColor": "red"
+        },
+				{
+          "label": "Tổng số người được cứu, hỗ trợ",
+          "data": [
+            1051,
+            1098,
+            756,
+			568,
+			1245,
+			704
+          ],
+          "backgroundColor": "green",
+          "borderColor": "red"
+        }
+      ]
+      
+    }
+  }

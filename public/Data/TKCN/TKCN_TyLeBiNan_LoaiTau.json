@@ -1,0 +1,36 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "TỶ LỆ BỊ NẠN THEO LOẠI TÀU"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Tàu vận tải biển",
+      "Tàu cá",
+      "Loại khác"
+    ],
+    "datasets": [
+      {
+        "label": "Từ 2018 đến 31/10/2023",
+        "data": [
+          298,
+          1568,
+          96
+        ],
+        "borderColor": ["#0074D9", "#FF4136","#2ECC40"],
+        "backgroundColor": ["#0074D9", "#FF4136","#2ECC40"]
+      }
+    ]
+    
+  }
+}

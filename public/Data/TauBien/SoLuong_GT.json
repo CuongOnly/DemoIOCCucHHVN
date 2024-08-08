@@ -1,0 +1,41 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "THỐNG KÊ THEO TỔNG GT"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Từ 5000 GT trở xuống",
+      "Từ trên 5000 GT đến 10.000 GT",
+      "Từ trên 10.000 GT đến 20.000 GT",
+      "Từ trên 20.000 GT đến 30.000 GT",
+      "Trên 30.000 GT"
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          717,
+104,
+89,
+30,
+45
+
+        ],
+        "borderColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B","#B10DC9"],
+        "backgroundColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B","#B10DC9"]
+      }
+    ]
+    
+  }
+}

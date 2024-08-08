@@ -1,0 +1,51 @@
+{
+    "type": "pie",
+    "options": {
+        "responsive": true,
+        "maintainAspectRatio": false,
+        "plugins": {
+            "legend": {
+                "position": "top"
+            },
+            "title": {
+                "display": true,
+                "text": "THỐNG KÊ THEO TỔNG SỐ TÀU"
+            }
+        }
+    },
+    "data": {
+        "labels": [
+            "Tàu chở hàng rời, tổng hợp",
+            "Tàu chở Container",
+            "Tàu chở Dầu, hóa chất",
+            "Tàu chở Khí hóa lỏng",
+            "Tàu chở Khách"
+        ],
+        "datasets": [
+            {
+                "label": "2023",
+                "data": [
+                    685,
+                    44,
+                    178,
+                    20,
+                    58
+                ],
+                "borderColor": [
+                    "#0074D9",
+                    "#FF4136",
+                    "#2ECC40",
+                    "#FF851B",
+                    "#B10DC9"
+                ],
+                "backgroundColor": [
+                    "#0074D9",
+                    "#FF4136",
+                    "#2ECC40",
+                    "#FF851B",
+                    "#B10DC9"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "TỶ LỆ BỊ NẠN THEO VỊ TRÍ"
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Số vụ việc tìm kiếm cứu nạn khác",
+      "Số vụ Hoàng Sa",
+      "Số vụ Trường Sa"
+    ],
+    "datasets": [
+      {
+        "label": "Từ 2018 đến 31/10/2023",
+        "data": [
+          1696,
+          114,
+          152
+        ],
+        "borderColor": ["#0074D9", "#FF4136","#2ECC40"],
+        "backgroundColor": ["#0074D9", "#FF4136","#2ECC40"]
+      }
+    ]
+    
+  }
+}

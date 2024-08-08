@@ -1,0 +1,37 @@
+{
+  "type": "pie",
+  "options": {
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "plugins": {
+      "legend": {
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": ["KHỐI LƯỢNG HÀNG HÓA THÔNG QUA CẢNG BẰNG ĐỘI TÀU BIỂN VIỆT NAM","TÍNH ĐẾN THÁNG 10/2023"]
+      }
+    }
+  },
+  "data": {
+    "labels": [
+      "Hàng khô tấn",
+      "Hàng lỏng tấn",
+      "Hàng container tấn"
+
+    ],
+    "datasets": [
+      {
+        "label": "2023",
+        "data": [
+          15287707,
+          31173893,
+          48260537
+        ],
+        "borderColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B"],
+        "backgroundColor": ["#0074D9", "#FF4136","#2ECC40","#FF851B"]
+      }
+    ]
+    
+  }
+}
